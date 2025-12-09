@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Engineer in AI and Autonomous Systems
 subtitle: <a href='#'>Affiliations</a>. Moscow Independent Research Institute of Artificial Intelligence
 
 profile:
   align: right
   image: profile.jpeg
-  image_circular: false
-  more_info: >
-    <p>Moscow, Russia</p>
+  image_circular: true
+  # more_info: >
+  #   <p>Moscow, Russia</p>
 
 selected_papers: false
 social: true
@@ -34,7 +33,7 @@ Master's student at Moscow Institute of Physics and Technology (MIPT) specializi
 
 ### Research Experience
 
-**Research Engineer** | Center for Cognitive Modeling (March 2024 — Present)
+**Research Engineer** | Moscow Independent Research Institute of Artificial Intelligence (March 2024 — Present)
 
 - Research and development of neural network methods for perception, mapping, and planning in autonomous systems
 - Developed perception system of the autonomous truck
