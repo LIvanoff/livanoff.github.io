@@ -26,11 +26,11 @@ ninja.data = [{
           title: '🏆 Our team won the “Leaders of Digital Transformation” hackathon! Awarded $7,500 for...',
           description: "",
           section: "News",},{
-        id: 'social-cv',
-        title: 'CV',
+        id: 'social-email',
+        title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("mailto:%64%72%66%72%69%6C%79@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
@@ -61,11 +61,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=GmBKp8EAAAAJ", "_blank");
         },
       },{
-        id: 'social-Telegram',
-        title: 'Telegram',
+        id: 'social-telegram',
+        title: 'telegram',
         section: 'Socials',
         handler: () => {
-          window.open("https://t.me/lazinesslab", "_blank");
+          window.open("https://telegram.me/ai_ivanoff", "_blank");
         },
       },{
       id: 'light-theme',
