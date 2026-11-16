@@ -1,4 +1,7 @@
-FROM ruby:slim
+# Pin Ruby to the version supported by the current al-folio lockfile.
+# Using the floating `ruby:slim` tag currently pulls Ruby 4 and breaks
+# platform-specific native gems such as nokogiri and ffi.
+FROM ruby:3.3-slim
 
 # uncomment these if you are having this issue with the build:
 # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
