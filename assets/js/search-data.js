@@ -61,11 +61,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=GmBKp8EAAAAJ", "_blank");
         },
       },{
-        id: 'social-telegram',
-        title: 'telegram',
+        id: 'social-Telegram',
+        title: 'Telegram',
         section: 'Socials',
         handler: () => {
-          window.open("https://telegram.me/ai_ivanoff", "_blank");
+          window.open("https://t.me/lazinesslab", "_blank");
         },
       },{
       id: 'light-theme',
