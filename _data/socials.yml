@@ -42,7 +42,7 @@ scholar_userid: GmBKp8EAAAAJ # your Google Scholar ID
 # spotify_id: # your spotify id
 # stackoverflow_id: # your stackoverflow id
 # strava_userid: # your strava user id
-telegram_username: ai_ivanoff # your Telegram user name
+# telegram_username: # your Telegram user name
 # unsplash_id: # your unsplash id
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
@@ -52,3 +52,8 @@ telegram_username: ai_ivanoff # your Telegram user name
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
+
+Telegram:
+  logo: /assets/img/lazinesslab.jpg
+  title: Telegram channel
+  url: https://t.me/lazinesslab
